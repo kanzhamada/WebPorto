@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin, .form-register {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within, .form-register {
+  z-index: 2;
+}
+
+.form-signin input[type="email"], 
+.form-register input[type="email"],
+.form-register input[type="username"],
+.form-register input[type="password"],
+.form-register input[type="name"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"],
+.form-register input[type="email"],
+.form-register input[type="username"],
+.form-register input[type="password"],
+.form-register input[type="name"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

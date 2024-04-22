@@ -1,0 +1,216 @@
+
+  
+
+.blackie{
+    background-color: rgba(28, 24, 24, 0.68); width: 69%; height: 77%; border-radius: 59px; backdrop-filter: blur(15px); position: absolute;
+  }
+  
+        .full-width-img {
+          width: 100vw; 
+          height: auto; 
+        }
+  
+        .card-img {
+          max-height: 10%; 
+        }
+  
+        .iniparagraf{
+          padding-left: 5%;
+          padding-right: 55%; 
+          margin-top: 11%
+        }
+  
+        .cuy{
+          font-size: 20px;
+          margin-top: 4%;
+        }
+  
+        .foto1{
+          z-index: 2; 
+          margin-right: 5%;
+          align-items: center; 
+          justify-content: flex-end; 
+          display: flex;
+          margin-top: -313px;
+        }
+  
+        .fullstack{
+          width: 269px;
+          height: 47px;
+          background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(249, 241, 241, 0.08));
+          z-index: 9;
+          border-radius: 27px;
+          position: absolute;
+          box-shadow: 0 0 0 2px #fff; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 5%;
+          margin-top: 6%;
+          font-size: 19px;
+        }
+  
+        .fullstack img{
+          height:27px; width: 27px; margin-right: 7px;
+        }
+  
+        .linkedIn{
+          width: 169px;
+          height: 47px;
+          background: #1C1818;
+          z-index: 9;
+          border-radius: 27px;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 5%;
+          margin-top: 1%;
+          font-size: 19px;
+        }
+  
+        .linkedIn img{
+          height:27px; width: 27px; margin-right: 7px;
+        }
+  
+        .github{
+          width: 169px;
+          height: 47px;
+          background: #FFFF;
+          z-index: 9;
+          border-radius: 27px;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 19%;
+          margin-top: 1%;
+          font-size: 19px;
+          color:#1C1818;
+        }
+  
+        .collegeprojecct, .whoiam{
+          color: #fff;
+          justify-content: center;
+          align-items: center;
+          margin-top: 4%;
+          display: flex;
+        }
+  
+        .about-me{
+          display: grid;
+          gap: 1.5rem;
+          grid-template-columns: repeat(6, 1fr);
+          padding-block: 2rem;
+          width: min(95%, 120rem);
+          margin-inline: auto;
+        }
+  
+        .achievement{
+          grid-column: 3;
+        }
+  
+        .me {
+          grid-row: span 2;
+          grid-column: span 2;
+          padding: 4%;
+          color: white;
+          border-radius: 24px;
+          background: url(../img/foto2.png);
+          background-position: center; /* Center the background image */
+          background-size: cover; /* Ensure the background image covers the entire element */
+          box-shadow: 0 0 0 2px #3F3D3D;
+        }
+  
+        .content-me{
+          gap: 1rem;
+        }
+  
+        .content-education{
+          margin-top: 4%;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: 1fr 3fr;
+          padding-block: 0.5rem;
+          font-size: 17px;
+        }
+  
+        .content-achievement {
+          margin-top: 4%;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: 1fr 6fr;
+          padding-block: 0.5rem;
+          font-size: 17px;
+        }
+  
+        .content-skills{
+          margin-top: 4%;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: repeat(6, 1fr);
+          padding-block: 0.5rem;
+        }
+  
+        .content-music{
+          margin-top: 4%;
+          padding-block: 0.5rem;
+        }
+  
+        .music{
+          grid-column: span 3;
+          padding: 4%;
+          color: white;
+          font-size: 35px;
+          border-radius: 24px;
+          background-color: #1E1C1C;
+          box-shadow: 0 0 0 2px #3F3D3D;
+        }
+  
+        .happiness{
+          grid-column: span 3;
+          color: white;
+          font-size: 35px;
+          border-radius: 24px;
+          background-color: #1E1C1C;
+          box-shadow: 0 0 0 2px #3F3D3D;
+          overflow: hidden;
+        }
+  
+        .happiness img{
+          background-position: center; 
+          background-size: cover;
+        }
+  
+        .education, .experience, .skills, .achievement{
+          grid-column: span 2;
+          padding: 4%;
+          color: white;
+          font-size: 35px;
+          border-radius: 24px;
+          background-color: #1E1C1C;
+          box-shadow: 0 0 0 2px #3F3D3D;
+        }
+  
+        .bubble1, .bubble2, .bubble3{
+          background-color: #1E1C1C;
+          height: 4%;
+          box-shadow: 0 0 0 5px #1E1C1C;
+          border-end-start-radius:17px;
+          border-top-right-radius:17px;
+          border-bottom-right-radius: 17px;
+          padding-left: 14px;
+          padding-right: 14px
+        }
+  
+        .bubble1{
+          width: 88px;
+        }
+  
+        .bubble2{
+          width: 244px;
+        }
+  
+        .bubble3{
+          width: 198px;
+        }
